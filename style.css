@@ -1,0 +1,114 @@
+
+@font-face {
+    font-family: Inter;
+    src: url('challenge files/news-homepage-main/news-homepage-main/assets/fonts/static/Inter-Bold.ttf');
+}
+:root{
+--Soft-orange: hsl(35, 77%, 62%);
+--Soft-red: hsl(5, 85%, 63%);
+--Off-white: hsl(36, 100%, 99%);
+--Grayish-blue: hsl(233, 8%, 79%);
+--Darkgrayish-blue: hsl(236, 13%, 42%);
+--Verydark-blue: hsl(240, 100%, 5%);
+}
+body{
+    margin: 0rem;
+    font-family: 'Inter' sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40rem;
+}
+nav ul .right-nav{
+    display: flex;
+    gap: 2rem;
+}
+nav ul .left-nav > h1{
+    font-size: 52px;
+    font-weight: 900;
+}
+nav ul li{
+    list-style: none;
+    color: var(--Soft-red);
+}
+
+/*main part of the page*/
+#more-btn{
+    word-break:break-all;
+    background-color: var(--Soft-red);
+    border: none;
+    padding: 16px;
+    width: 65%;
+    font-weight: 800;
+    color: var(--Verydark-blue);
+    letter-spacing: 4px;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.left-section-below{
+    font-size: 28px;
+    font-weight: 900;
+}
+.left-section-below-right{
+    font-size: 18px;
+    color: var(--Soft-red);
+}
+
+.align{
+    display: flex;
+    gap: 40px;
+}
+
+
+.rigth-section{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 16px;
+    height: 100%;
+    background-color: var(--Verydark-blue);
+    color: var(--Off-white);
+    text-align: left;
+}
+.rigth-section ul li,p{
+    list-style: none;
+    opacity: 50%;
+}
+.rigth-section ul h1{
+    color: var(--Soft-orange);
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.text h1, h2,p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.text h1{
+    font-size: 32px;
+    line-height: 1;
+    color: var(--Soft-red);
+}
+.below-section{
+    margin-top: 2rem;
+    display: flex;
+    gap: 40px;
+}
+.below-section-dir{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
